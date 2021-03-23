@@ -1,3 +1,7 @@
+Muutetaan tiedostoa epäsynkroonin simuloimiseksi.
+
+
+
 commit 627f86cd5126aeba1cd86d6a40b6698e3a399110
 Author: miskapohjanrinne <miska.pohjanrinne@helsinki.fi>
 Date:   Tue Mar 23 21:18:01 2021 +0200

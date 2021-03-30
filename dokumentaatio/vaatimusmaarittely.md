@@ -18,15 +18,15 @@ servereitä ei ole käytössä, pelaajat pelaavat samalla tietokoneella vuorotel
 
 ## Perusversion tarjoama toiminnallisuus
 
-#Aloitusnäytöllä
+# Aloitusnäytöllä
 
 Valitaan pelilaudan koko
 
-#Pelin aikana
+# Pelin aikana
 
 Näytetään koko pelilauta, käyttäjät valitsevat mihin asettavat oman merkkinsä
 
-#Pelin päätyttyä
+# Pelin päätyttyä
 
 Näytetään kumpi pelaaja voitti ja millä kuviolla/suoralla
 

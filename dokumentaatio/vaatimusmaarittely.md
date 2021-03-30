@@ -1,22 +1,22 @@
-###### Vaatimusmäärittely
+#### Vaatimusmäärittely
 
-###Sovelluksen tarkoitus
+## Sovelluksen tarkoitus
 
 Sovellus on vanha kunnon jätkänshakki-peli. Kaksi pelaajaa, peliruudulla X ja O, asettavat vuorotellen laudalle
 oman merkkinsä ja pyrkivät saamaan viisi omaa merkkiään peräkkäin pysty- tai vaakariviin tai vinoon. Pelin voittaa
 se pelaaja kumpi tässä onnistuu ensin. Alustavasti suunnittelin että ruudukko olisi 15x15 kokoinen, myöhemmin 
 selvitetään onnistuuko tai onko kannattavaa luoda myös esim. 50x50 ruudukon pelimuoto.
 
-###Käyttäjät
+## Käyttäjät
 
 Pelaajia on kaksi ja he pelaavat vastakkain. Pelaajat itse valitsevat, kumpi on X, eli pelin aloittaja. Koska
 servereitä ei ole käytössä, pelaajat pelaavat samalla tietokoneella vuorotellen.
 
-###Käyttöliittymäluonnos
+## Käyttöliittymäluonnos
 
 [Imgur linkki](https://i.imgur.com/ebFQlDl.jpeg)
 
-###Perusversion tarjoama toiminnallisuus
+## Perusversion tarjoama toiminnallisuus
 
 #Aloitusnäytöllä
 
@@ -30,7 +30,7 @@ Näytetään koko pelilauta, käyttäjät valitsevat mihin asettavat oman merkki
 
 Näytetään kumpi pelaaja voitti ja millä kuviolla/suoralla
 
-###Jatkokehitysideoita
+## Jatkokehitysideoita
 
 * Pelaajat voivat päättää kuinka pitkällä suoralla voittaa
 * Mahdollisuus valita kuinka suuri lauta tahansa, kunhan laudalla on mahdollista voittaa

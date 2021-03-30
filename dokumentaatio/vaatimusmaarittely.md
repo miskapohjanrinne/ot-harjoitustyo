@@ -37,4 +37,3 @@ Näytetään kumpi pelaaja voitti ja millä kuviolla/suoralla
 * Mahdollisuus pelata internetin kautta toisia vastaan
 * [Käyttäjien tekeminen tilastojen tallennusta varten
 
-

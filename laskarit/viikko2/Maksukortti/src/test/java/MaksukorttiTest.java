@@ -89,4 +89,19 @@ public class MaksukorttiTest {
         kortti2.syoMaukkaasti();
         assertEquals("Kortilla on rahaa 0.0 euroa", kortti2.toString());
     }
+    
+    @Test
+    public void kortinSaldoAlussaOikein() {
+        Maksukortti kortti2 = new Maksukortti (6.9);
+        assertEquals("Kortilla on rahaa 6.9 euroa", kortti2.toString());
+    }
+    
+    @Test
+    public void rahanLataaminenKasvattaaSaldoaOikein() {
+        assertEquals("Kortilla on rahaa 10.0 euroa", kortti.toString());
+        kortti.lataaRahaa(5);
+        assertEquals("Kortilla on rahaa 15.0 euroa", kortti.toString());
+    }
+    
+  
 }

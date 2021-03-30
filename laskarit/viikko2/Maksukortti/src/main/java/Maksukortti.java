@@ -9,6 +9,7 @@
  * @author Miska
  */
 public class Maksukortti {
+
     private double arvo;
     private final double EDULLINEN = 2.5;
     private final double MAUKAS = 4.0;

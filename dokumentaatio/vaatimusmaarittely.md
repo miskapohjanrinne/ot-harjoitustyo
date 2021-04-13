@@ -29,7 +29,7 @@ Näytetään koko pelilauta, käyttäjät valitsevat mihin asettavat oman merkki
 ### Pelin päätyttyä
 
 Näytetään kumpi pelaaja voitti ja millä kuviolla/suoralla
-
+Kysytään haluaako pelata uudestaan
 ## Jatkokehitysideoita
 
 * Pelaajat voivat päättää kuinka pitkällä suoralla voittaa

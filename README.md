@@ -15,7 +15,6 @@
 ## Viikko 2
 [tuntikirjanpito.md](https://github.com/miskapohjanrinne/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)  
 [vaatimusmaarittely.md](https://github.com/miskapohjanrinne/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
-<<<<<<< HEAD
 
 ## Viikko 3
 Harjoitustyön osalta tämä viikko jäi vajavaiseksi. Tein Maven projektin, repositorion ja pientä edistymistä jo mutta työ ei taida yltää

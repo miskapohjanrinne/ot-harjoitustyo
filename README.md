@@ -7,10 +7,9 @@
 ## Viikko 2 laskarit:  
 [jacoco_report.png](https://raw.githubusercontent.com/miskapohjanrinne/ot-harjoitustyo/master/laskarit/viikko2/jacoco_report.png)  
 [Viikko 2 repositorio](https://github.com/miskapohjanrinne/ot-harjoitustyo/tree/master/laskarit/viikko2)
-<<<<<<< HEAD
 
-=======
->>>>>>> 30aa0eae1c802ad40ce0408c129543e1ec00a58a
+## Viikko 3 laskarit:  
+[Viikko 3 repositorio](https://github.com/miskapohjanrinne/ot-harjoitustyo/tree/master/laskarit/viikko3)
 
 # Harjoitustyö
 ## Viikko 2
@@ -21,5 +20,4 @@
 ## Viikko 3
 Harjoitustyön osalta tämä viikko jäi vajavaiseksi. Tein Maven projektin, repositorion ja pientä edistymistä jo mutta työ ei taida yltää
 pisteille asti.
-=======
->>>>>>> 30aa0eae1c802ad40ce0408c129543e1ec00a58a
+

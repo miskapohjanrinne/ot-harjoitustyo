@@ -31,20 +31,20 @@ public class Game {
             System.out.println("virhe");
         }
         if (this.board.markSpace(x, y, this.turn)) {
-            checkForWin(x, y);
+            //checkForWin(x, y);
             swapTurns();
         } else {
             System.out.println("Ruutu varattu");
         }
     }
 
-    public boolean checkForWin(int x, int y) {
+    /*public boolean checkForWin(int x, int y) {
         for (int i = 1; i <= 11; i++) {
             for (int j = 1; j <= 11; i++) {
-                
+
             }
         }
         return false;
-    }
+    }*/
 
 }

@@ -1,22 +1,36 @@
-# Laskarit
-## Viikko 1 tehtävät:
+# Jätkänshakki
 
-[gitlog.txt](https://github.com/miskapohjanrinne/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)  
-[komentorivi.txt](https://github.com/miskapohjanrinne/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
+Sovellus on perinteinen kahden hengen jätkänshakki eli viiden suora -peli. Peliä voi pelata paikallisesti yhdellä koneella.
 
-## Viikko 2 laskarit:  
-[jacoco_report.png](https://raw.githubusercontent.com/miskapohjanrinne/ot-harjoitustyo/master/laskarit/viikko2/jacoco_report.png)  
-[Viikko 2 repositorio](https://github.com/miskapohjanrinne/ot-harjoitustyo/tree/master/laskarit/viikko2)
+## Dokumentaatio
 
-## Viikko 3 laskarit:  
-[Viikko 3 repositorio](https://github.com/miskapohjanrinne/ot-harjoitustyo/tree/master/laskarit/viikko3)
+[Tuntikirjanpito](https://github.com/miskapohjanrinne/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
-# Harjoitustyö
-## Viikko 2
-[tuntikirjanpito.md](https://github.com/miskapohjanrinne/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)  
-[vaatimusmaarittely.md](https://github.com/miskapohjanrinne/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+[Vaatimusmäärittely](https://github.com/miskapohjanrinne/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
-## Viikko 3
-Harjoitustyön osalta tämä viikko jäi vajavaiseksi. Tein Maven projektin, repositorion ja pientä edistymistä jo mutta työ ei taida yltää
-pisteille asti.
+(Lisätään Viikolle 6 mennessä ainakin arkkitehtuurikuvaus ja käyttöohje)
+
+## Releaset
+
+(Lisätään viikkoon 6 mennessä)
+
+##  Komentorivitoiminnot
+
+### Testaus
+
+Testit suoritetaan komennolla
+
+"mvn test"
+
+Testikattavuusraportti luodaan komennolla
+
+"mvn jacoco:report"
+
+### Checkstyle
+
+Checkstyle tarkastuksen voi suorittaa komennolla
+
+"mvn jxr:jxr checkstyle:checkstyle"
+
+Mahdolliset virheilmoitukset voi tarkistaa avaamalla tiedosto "target/site/checkstyle.html"
 

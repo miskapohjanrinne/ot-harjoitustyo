@@ -26,7 +26,7 @@ public class Space {
     
     public char getValue() {
         if (!this.hasBeenUsed()) {
-            return '-';
+            return ' ';
         }
         return this.value;
     }

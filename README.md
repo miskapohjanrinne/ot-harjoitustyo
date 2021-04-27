@@ -8,7 +8,7 @@ Sovellus on perinteinen kahden hengen jätkänshakki eli viiden suora -peli. Pel
 
 [Vaatimusmäärittely](https://github.com/miskapohjanrinne/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
-(Lisätään Viikolle 6 mennessä ainakin arkkitehtuurikuvaus ja käyttöohje)
+[Sovellusarkkitehtuuri](https://github.com/miskapohjanrinne/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
 ## Releaset
 
@@ -20,17 +20,17 @@ Sovellus on perinteinen kahden hengen jätkänshakki eli viiden suora -peli. Pel
 
 Testit suoritetaan komennolla
 
-"mvn test"
+> mvn test
 
 Testikattavuusraportti luodaan komennolla
 
-"mvn jacoco:report"
+> mvn jacoco:report
 
 ### Checkstyle
 
 Checkstyle tarkastuksen voi suorittaa komennolla
 
-"mvn jxr:jxr checkstyle:checkstyle"
+> mvn jxr:jxr checkstyle:checkstyle
 
-Mahdolliset virheilmoitukset voi tarkistaa avaamalla tiedosto "target/site/checkstyle.html"
+Mahdolliset virheilmoitukset voi tarkistaa avaamalla tiedosto _target/site/checkstyle.html_
 

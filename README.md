@@ -16,6 +16,24 @@ Sovellus on perinteinen kahden hengen jätkänshakki eli viiden suora -peli. Pel
 
 ##  Komentorivitoiminnot
 
+### Ohjelman suorittaminen
+
+Komennolla
+
+> mvn compile exec:java -Dexec.mainClass=jatkanshakki.Main
+
+Huom! Ohjelman käynnistäminen tällä komennolla suoraan ei toimi jostain syystä, toimii kuitenkin NetBeansin kautta.
+
+### Jarin generointi
+
+Komennolla
+
+> mvn package
+
+Luotu jar-tiedosto löytyy hakemistosta _target_ nimellä _Jatkanshakki-1.0-SNAPSHOT_
+
+Huom! Ohjelma ei jostain syystä käynnisty jarin kautta. Ohjelma käynnistyy kuitenkin NetBeansin kautta mainiosti.
+
 ### Testaus
 
 Testit suoritetaan komennolla

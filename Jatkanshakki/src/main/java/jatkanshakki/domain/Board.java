@@ -19,6 +19,10 @@ public class Board {
         return this.size;
     }
 
+    public char getValueFromSpace(int x, int y) {
+        return this.spaces[x][y].getValue();
+    }
+
     private void initBoard(int size) {
         for (int i = 1; i <= size; i++) {
             for (int j = 1; j <= size; j++) {
@@ -34,6 +38,10 @@ public class Board {
             this.spaces[x][y].setValue(marker);
             return true;
         }
+    }
+
+    public boolean spaceHasBeenUsed(int x, int y) {
+        return this.spaces[x][y].hasBeenUsed();
     }
 
 }

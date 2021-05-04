@@ -7,8 +7,12 @@ package jatkanshakki.domain;
 public class Board {
 
     private Space[][] spaces;
-    private int size; //kokoa kuvataan yhdellä kokonaisluvulla, koko on siis size x size
+    private int size;
 
+    /**
+     *
+     * @param size pelilaudan koko, size x size
+     */
     public Board(int size) {
         this.spaces = new Space[size + 1][size + 1];
         this.size = size;
@@ -19,6 +23,12 @@ public class Board {
         return this.size;
     }
 
+    /**
+     *
+     * @param x koordinaatti
+     * @param y koordinaatti
+     * @return kysytyn ruudun arvo, X/O/tyhjä
+     */
     public char getValueFromSpace(int x, int y) {
         return this.spaces[x][y].getValue();
     }
@@ -31,6 +41,13 @@ public class Board {
         }
     }
 
+    /**
+     *
+     * @param x koordinaatti
+     * @param y koordinaatti
+     * @param marker merkataanko O vai X
+     * @return onnistuiko merkkaaminen
+     */
     public boolean markSpace(int x, int y, char marker) {
         if (this.spaces[x][y].hasBeenUsed()) {
             return false;
@@ -40,6 +57,12 @@ public class Board {
         }
     }
 
+    /**
+     *
+     * @param x koordinaatti
+     * @param y koordinaatti
+     * @return onko ruutu jo merkattu
+     */
     public boolean spaceHasBeenUsed(int x, int y) {
         return this.spaces[x][y].hasBeenUsed();
     }

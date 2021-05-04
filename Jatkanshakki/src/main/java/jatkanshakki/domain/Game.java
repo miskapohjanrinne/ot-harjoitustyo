@@ -9,6 +9,9 @@ public class Game {
     private Board board;
     private char turn;
 
+    /**
+     *
+     */
     public Game() {
         this.board = new Board(15);
         this.turn = 'O';
@@ -22,10 +25,21 @@ public class Game {
         }
     }
 
+    /**
+     *
+     * @return kumman pelaajan vuoro
+     */
     public char getTurn() {
         return this.turn;
     }
 
+    /**
+     *
+     * @param x merkattavan ruudun x-koordinaatti
+     * @param y merkattavan ruudun y-koordinaatti
+     * @return totuusarvo merkataanko haluttu ruutu onnistuneesti
+     *
+     */
     public boolean mark(int x, int y) {
         if (this.board.markSpace(x, y, this.turn)) {
             if (checkForWin()) {
@@ -38,6 +52,10 @@ public class Game {
         }
     }
 
+    /**
+     *
+     * @return totuusarvo onko kumpikaan pelaaja voittanut
+     */
     public boolean checkForWin() {
         for (int x = 1; x <= this.board.getSize(); x++) {
             for (int y = 1; y <= this.board.getSize(); y++) {

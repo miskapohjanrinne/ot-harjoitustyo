@@ -10,7 +10,7 @@
 
 27.4 koodausta, suunnittelua 6 tuntia
 
-4.5 Ohjelma toimii halutusti nyt NetBeansin kautta. Jostain syystä ei toimi komentoriviltä, antaa erroria "Unable to open DISPLAY"... Jarin saa generoitua mutta ei suostu sitäkään kautta suorittamaan sovellusta. Testien tekeminen laahaa edelleen, mutta varsinaisia bugeja ei pitäisi olla, toiminnallisuus on sen verran simppeliä. Tänään tehty yhteensä 8 tuntia.
+4.5 Ohjelma toimii halutusti nyt NetBeansin kautta. Jostain syystä ei toimi komentoriviltä, antaa erroria "Unable to open DISPLAY"... Jarin saa generoitua mutta ei suostu sitäkään kautta suorittamaan sovellusta. Testien tekeminen laahaa edelleen, mutta varsinaisia bugeja ei pitäisi olla, toiminnallisuus on sen verran simppeliä. JavaDocia ainakin aloiteltu. Tänään tehty yhteensä 8 tuntia.
 
 
 = yhteensä 21 tuntia

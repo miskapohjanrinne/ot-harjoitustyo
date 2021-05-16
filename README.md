@@ -46,6 +46,8 @@ Testikattavuusraportti luodaan komennolla
 
 > mvn jacoco:report
 
+Testikattavuusraportin löytää avaamalla tiedoston _target/site/jacoco/index.html_
+
 ### Checkstyle
 
 Checkstyle tarkastuksen voi suorittaa komennolla

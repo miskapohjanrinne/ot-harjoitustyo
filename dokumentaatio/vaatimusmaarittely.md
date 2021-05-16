@@ -4,36 +4,22 @@
 
 Sovellus on vanha kunnon jätkänshakki-peli. Kaksi pelaajaa, peliruudulla X ja O, asettavat vuorotellen laudalle
 oman merkkinsä ja pyrkivät saamaan viisi omaa merkkiään peräkkäin pysty- tai vaakariviin tai vinoon. Pelin voittaa
-se pelaaja kumpi tässä onnistuu ensin. Alustavasti suunnittelin että ruudukko olisi 15x15 kokoinen, myöhemmin 
-selvitetään onnistuuko tai onko kannattavaa luoda myös esim. 50x50 ruudukon pelimuoto.
+se pelaaja kumpi tässä onnistuu ensin. Pelilaudan koko on 15x15 ruutua.
 
 ## Käyttäjät
 
-Pelaajia on kaksi ja he pelaavat vastakkain. Pelaajat itse valitsevat, kumpi on X, eli pelin aloittaja. Koska
-servereitä ei ole käytössä, pelaajat pelaavat samalla tietokoneella vuorotellen.
-
-## Käyttöliittymäluonnos
-
-[Imgur linkki](https://i.imgur.com/ebFQlDl.jpeg)
+Pelaajia on kaksi ja he pelaavat vastakkain. Peliä pelataan lokaalisesti, ja pelin aloittava pelaaja saa merkin O.
 
 ## Perusversion tarjoama toiminnallisuus
 
 ### Aloitusnäytöllä
 
-Valitaan pelilaudan koko
+Odotetaan että ensimmäinen pelaaja eli O aloittaa pelin valitsemalla ruudun.
 
 ### Pelin aikana
 
-Näytetään koko pelilauta, käyttäjät valitsevat mihin asettavat oman merkkinsä
+Käyttäjät valitsevat vuorotellen mihin ruutuun asettavat merkkinsä. Jos pelaaja koittaa asettaa oman merkkinsä ruutuun joka on jo varattu, vuoro ei vaihdu, vaan pysyy samalla pelaajalla kunnes hän valitsee vapaan ruudun.
 
 ### Pelin päätyttyä
 
-Näytetään kumpi pelaaja voitti ja millä kuviolla/suoralla
-Kysytään haluaako pelata uudestaan
-## Jatkokehitysideoita
-
-* Pelaajat voivat päättää kuinka pitkällä suoralla voittaa
-* Mahdollisuus valita kuinka suuri lauta tahansa, kunhan laudalla on mahdollista voittaa
-* Mahdollisuus pelata internetin kautta toisia vastaan
-* [Käyttäjien tekeminen tilastojen tallennusta varten
-
+Näytetään kumpi pelaaja voitti.

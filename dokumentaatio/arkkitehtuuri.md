@@ -9,9 +9,7 @@ aina sen mukaisesti.
 
 ### Käyttöliittymä
 
-Käyttöliittymässä on vain yksi näkymä, joten se on toteutettu vain yhdellä Scene-oliolla. Näkymässä on 15x15 peliruudukko, ja
-ruudukon yläpuolella lukee aina kumman pelaajan vuoro on. Käyttöliittymä kutsuu ainoastaan sopivilla parametreilla sovelluslogiikan
-olion Game metodeja.
+[Käyttöliittymä](https://github.com/miskapohjanrinne/ot-harjoitustyo/blob/master/Jatkanshakki/src/main/java/jatkanshakki/ui/UI.java) on suhteellisen yksinkertainen graafinen käy
 
 ## Sovelluslogiikka
 

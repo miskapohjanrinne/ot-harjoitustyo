@@ -14,7 +14,7 @@
 
 15.5 Lisätty testejä yms. 2 tuntia
 
-16.5 Tarkistettu testien kattavuus, luotu dokumentaatiota ja muutenkin yleistä siistimistä. 7 tuntia
+16.5 Tarkistettu testien kattavuus, luotu dokumentaatiota ja muutenkin yleistä siistimistä. 8 tuntia
 
 
-= yhteensä 30 tuntia
+= yhteensä 31 tuntia

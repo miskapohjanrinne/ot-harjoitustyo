@@ -1,16 +1,12 @@
 package jatkanshakki.domain;
 
-/**
- *
- * Sovelluslogiikka
- */
 public class Game {
 
     private Board board;
     private char turn;
 
     /**
-     *
+     * Sovelluslogiikka
      */
     public Game() {
         this.board = new Board(15);

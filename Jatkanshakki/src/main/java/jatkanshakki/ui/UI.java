@@ -19,20 +19,20 @@ import javafx.scene.control.Label;
 public class UI extends Application {
 
     private Game game;
-    private Scene gameScene;
-    private GridPane gameButtons;
+    private Scene game_scene;
+    private GridPane game_buttons;
     private BorderPane setting;
     private ArrayList<Button> buttons;
-    private Button shutDown;
+    private Button shut_down;
 
     @Override
-    public void start(Stage startScreen) {
+    public void start(Stage main_screen) {
         this.game = new Game();
         this.buttons = new ArrayList<>();
-        this.gameButtons = new GridPane();
-        this.shutDown = new Button("Sammuta peli");
+        this.game_buttons = new GridPane();
+        this.shut_down = new Button("Sammuta peli");
 
-        shutDown.setOnAction(new EventHandler<ActionEvent>() {
+        shut_down.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent e) {
                 System.exit(0);
@@ -63,20 +63,20 @@ public class UI extends Application {
                         }
                     }
                 });
-                gameButtons.add(this.buttons.get(this.buttons.size() - 1), x, y);
+                game_buttons.add(this.buttons.get(this.buttons.size() - 1), x, y);
             }
         }
 
         this.setting = new BorderPane();
-        setting.setCenter(gameButtons);
-        setting.setRight(shutDown);
+        setting.setCenter(game_buttons);
+        setting.setRight(shut_down);
         setting.setTop(new Label("Aloita peli painamalla jotakin ruutua, O aloittaa"));
 
-        this.gameScene = new Scene(setting);
+        this.game_scene = new Scene(setting);
 
-        startScreen.setTitle("Jätkänshakki");
-        startScreen.setScene(gameScene);
-        startScreen.show();
+        main_screen.setTitle("Jätkänshakki");
+        main_screen.setScene(game_scene);
+        main_screen.show();
     }
 
     public static void main(String[] args) {

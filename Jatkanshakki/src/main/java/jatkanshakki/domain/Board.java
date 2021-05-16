@@ -66,5 +66,4 @@ public class Board {
     public boolean spaceHasBeenUsed(int x, int y) {
         return this.spaces[x][y].hasBeenUsed();
     }
-
 }

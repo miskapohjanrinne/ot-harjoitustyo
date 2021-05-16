@@ -18,6 +18,8 @@ Sovellus on perinteinen kahden hengen jätkänshakki eli viiden suora -peli. Pel
 
 [Viikko 6](https://github.com/miskapohjanrinne/ot-harjoitustyo/releases/tag/viikko6)
 
+[Viikko 7, loppupalautus](https://github.com/miskapohjanrinne/ot-harjoitustyo/releases/tag/viikko7)
+
 ##  Komentorivitoiminnot
 
 ### Ohjelman suorittaminen

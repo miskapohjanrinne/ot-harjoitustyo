@@ -58,3 +58,10 @@ Checkstyle tarkastuksen voi suorittaa komennolla
 
 Mahdolliset virheilmoitukset voi tarkistaa avaamalla tiedosto _target/site/checkstyle.html_
 
+### JavaDoc
+
+JavaDocin voi generoida komennolla
+
+> mvn javadoc:javadoc
+
+Luotu JavaDoc löytyy kohteesta _target/site/apidocs/index.html_

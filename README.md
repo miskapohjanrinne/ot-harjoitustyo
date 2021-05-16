@@ -65,3 +65,8 @@ JavaDocin voi generoida komennolla
 > mvn javadoc:javadoc
 
 Luotu JavaDoc löytyy kohteesta _target/site/apidocs/index.html_
+
+
+## Muutama huomio Mavenin ja JavaFX:n yhteiselosta
+
+Välillä Maven antaa suorittaa ohjelman komentoriviltä ja välillä ei. Välillä Maven suorittaa testit kunnialla loppuun ja välillä ei. Aina taustalla on sama sävel: luokkaa Application tai joitakin sen metodeja ei löydy. Olen kokeillut luoda uuden pääohjelman tuloksetta, olen kurssin aikana käyttänyt vähintään kerran viikossa tunnin tai pari näiden ongelmien korjaamiseen ja joskus ne korjaantuivat ja joskus eivät. Mutta eivät ikinä lopullisesti. Suurimman osan kurssista jouduinki suorittamaan ohjelman suoraan NetBeansin kautta. Jos ohjelma ei toimi koska Maven antaa erroreita, pyydän sinua kokeilemaan ohjelman suorittamista myös NetBeansillä.
